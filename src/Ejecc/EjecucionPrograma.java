@@ -1,12 +1,13 @@
 package Ejecc;
 
+import java.util.Collections;
+import controllers.ControladorPrincipal;
 
 public class EjecucionPrograma {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-			//List<Persona> miLista = new DAO_Pasajeros();
-			//miLista.add(arg0);
+		//Primero ordenamos la lista de pasajeros
+		//Collections.sort(ControladorPrincipal.getListadoPersonas_aBordo());
 	}
 
 }

@@ -69,5 +69,13 @@ public abstract class Persona {
 	public String toString() {
 		return "Persona [dni=" + dni + ", nombre=" + nombre + ", minusvalia=" + minusvalia + ", fechaNacimiento="
 				+ fechaNacimiento + ", pais=" + pais + ", zona=" + zona + "]";
-	}	
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		return true;
+	}
+	
+	//SobreEcribir equals
+	
 }
